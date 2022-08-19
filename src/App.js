@@ -1,10 +1,17 @@
+import React from 'react';
 import './App.css';
-// import NavBar from './components/navBar/NavBar';
-import ScreenOne from './views/Screen_one';
+import ScreenOne from './views/screen_one/Screen_one';
 
-function App() {
+
+const App = () => {
   return (
-    <ScreenOne/>
+    <body className='App-body'>
+      <div id='Background-image'>
+        <ScreenOne />
+        {/* <ScreenTwo />
+        <ScreenThree /> */}
+      </div>
+    </body>
   );
 }
 
