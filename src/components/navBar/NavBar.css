@@ -1,6 +1,10 @@
-.logo {
-   display: block;
-   width: 180px;
+#logo {
+   width: 80%;
    max-width: 100%;
-   margin: 0 auto;
+   height: auto;
+}
+
+.hi-button{
+   color: red;
+   background-color: purple;
 }
