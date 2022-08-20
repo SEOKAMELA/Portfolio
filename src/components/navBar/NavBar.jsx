@@ -15,7 +15,7 @@ const NavBar = () => {
                     </button>
 
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                        <ul class="navbar-nav">
+                        <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
                                 <a class="nav-link" href="/#">Services</a>
                             </li>
