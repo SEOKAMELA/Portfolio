@@ -10,7 +10,7 @@
 
 }
 
-.header-about .my-name {
+.header-about, .my-name {
     margin-top: 20;
     font-size: 200%;
     /* font-size: clamp(2rem, 10vw, 3rem); */

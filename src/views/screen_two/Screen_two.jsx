@@ -1,22 +1,21 @@
 import React from 'react';
 import image from '../../assets/me.png'
+import './Screen_two.css'
 
 const ScreenTwo = () => {
     return (
-        <div id="whoami">
-            <div className="container">
-                <div className="row">
-                    <div className="my-pitcure">
-                        <h1>
-                            <img src={image} alt="" />
-                        </h1>
-                    </div>
-                    <div className="about-me">
+        <div id="about-me">
 
-                        <h1 className='about'>the story</h1>
-                    </div>
-                </div>
+            <div class="pic-col">
+                <img src={image} alt="" />
             </div>
+
+            <div class="about-col">
+                <h1>
+                    about me
+                </h1>
+            </div>
+
         </div>
     );
 }
