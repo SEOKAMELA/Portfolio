@@ -7,9 +7,11 @@ const NavBar = () => {
         <div>
             <nav class="navbar navbar-expand-lg navbar-light bg-ligh">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="/#">
+                    {/* <a class="navbar-brand" href="/#">
                         <img src={logo} alt="Seokamela" id='logo' />
-                    </a>
+                    </a> */}
+                    <img src={logo} alt="Seokamela" id='logo' />
+
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -17,7 +19,7 @@ const NavBar = () => {
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="/#">Services</a>
+                                <a id='a'class="nav-link" href="/#">Services</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="/#">Education</a>
@@ -28,10 +30,9 @@ const NavBar = () => {
                             <li class="nav-item">
                                 <a class="nav-link" href="/#">Projects</a>
                             </li>
-                            <button class='hi-button'>
-                                Send Hi
-                            </button>
+
                         </ul>
+                        
                     </div>
                 </div>
             </nav>
