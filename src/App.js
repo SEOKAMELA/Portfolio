@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import ScreenOne from './views/screen_one/Screen_one';
+import ScreenTwo from './views/screen_two/Screen_two';
 
 
 const App = () => {
@@ -8,9 +9,9 @@ const App = () => {
     <body className='App-body'>
       <div id='Background-image'>
         <ScreenOne />
-        {/* <ScreenTwo />
-        <ScreenThree /> */}
       </div>
+      <ScreenTwo />
+
     </body>
   );
 }

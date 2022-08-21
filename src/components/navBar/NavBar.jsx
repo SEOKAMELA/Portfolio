@@ -19,19 +19,19 @@ const NavBar = () => {
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a id='a'class="nav-link" href="/#">About Me</a>
+                                <a id='a'class="nav-link" href="/#">whoami</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/#">Services</a>
+                                <a class="nav-link" href="/#">services</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/#">Experince</a>
+                                <a class="nav-link" href="/#">uptime</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/#">Projects</a>
+                                <a class="nav-link" href="/#">projects</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/#">Contact Me</a>
+                                <a class="nav-link" href="/#">post</a>
                             </li>
                         </ul>
                         

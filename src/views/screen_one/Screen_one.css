@@ -1,0 +1,25 @@
+.header-about{
+    
+    margin-top: 10%;
+    margin-left: 5%;
+    
+    font-size: 150%;
+    font-weight:bolder;
+    /* font-size: clamp(2rem, 10vw, 1rem); */
+    position: relative;
+
+}
+
+.header-about .my-name {
+    margin-top: 20;
+    font-size: 200%;
+    /* font-size: clamp(2rem, 10vw, 3rem); */
+    font-weight: bold;
+    position: relative;
+    
+
+}
+
+.header-about .my-name .spane-name{
+    color: blue;
+}
