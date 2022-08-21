@@ -14,14 +14,29 @@
 .navbar-nav .nav-item .nav-link {
    color: white;
    position: relative;
+   
 }
 
 .navbar-nav .nav-item .nav-link:hover {
    color:blue;
    font-size: 150%;
-   display: block;
-   transition: background-color .5s;
 
 
+}
 
+.navbar-nav .nav-item .nav-link::after{
+
+   content: '';
+   width: 0;
+   height: 3px;
+   background: rgb(108, 110, 238);
+   position: absolute;
+   right: 0;
+   bottom: -1px;
+   transition: 0.5s;
+}
+
+.navbar-nav .nav-item .nav-link:hover::after{
+
+   width: 100%;
 }
