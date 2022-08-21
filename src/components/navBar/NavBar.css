@@ -13,4 +13,15 @@
 
 .navbar-nav .nav-item .nav-link {
    color: white;
+   position: relative;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+   color:blue;
+   font-size: 150%;
+   display: block;
+   transition: background-color .5s;
+
+
+
 }
