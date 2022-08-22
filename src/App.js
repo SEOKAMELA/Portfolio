@@ -6,13 +6,10 @@ import ScreenTwo from './views/screen_two/Screen_two';
 
 const App = () => {
   return (
-    <body className='App-body'>
-      <div id='Background-image'>
-        <ScreenOne />
-      </div>
-      <ScreenTwo />
-
-    </body>
+    <div className='App-body'>
+      <ScreenOne />
+      <ScreenTwo />      
+    </div>
   );
 }
 

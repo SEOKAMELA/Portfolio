@@ -1,36 +1,67 @@
 #about-me {
-    padding: 80px;
-    display:inline-flex;
-}
-.pic-col {
+    padding: 50px 0;
+    color: #ababab;
 
-    background-color: #050404;
-    margin-right: 20px;
+}
+
+
+
+.about-row {
     display: flex;
     justify-content: space-between;
-    flex-basis: wrap;
-    border-radius: 15px;
-    position: relative;
+    flex-wrap: wrap;
 }
 
+.pic-col {
+    background-color: rgb(24, 24, 24);
+    flex-basis: 30%;
+}
+
+.pic-col, .img {
+    width: auto;
+    height: auto;
+    border-radius: 15px;
+
+}
 
 .about-col {
-    flex: 1;
+    flex-basis: 50%;
     border-radius: 15px;
-    background: rgb(0, 0, 0);
+    background-color: rgb(24, 24, 24);
+
+} 
+
+.sub-titlle {
+    font-weight: 800;
+    color: #ababab;
+}
+
+.tab {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40%;
+}
+
+.tab-links {
+    
+    font-weight: 18px;
+    font-weight: 400;
+    cursor: pointer;
     position: relative;
-
-}  
-
-
-.pic-col, #img{
-    position: relative;
-
 }
 
 
-
-.about-col, .h1 {
-    text-align:center;
+.tab-links::after {
+    content: "";
+    width: 0;
+    height: 3px;
+    background: blue;
+    position:absolute;
+    right: 0;
+    bottom: -8px;
+    transition: 0.5s;
 }
 
+.tab-links.active-link::after{
+    width: 100%;
+}
