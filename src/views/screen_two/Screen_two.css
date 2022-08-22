@@ -7,6 +7,7 @@
 
 
 .about-row {
+    margin: 2%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -32,6 +33,7 @@
 } 
 
 .sub-titlle {
+    text-align: center;
     font-weight: 800;
     color: #ababab;
 }

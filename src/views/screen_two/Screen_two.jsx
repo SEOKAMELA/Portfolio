@@ -10,7 +10,7 @@ const ScreenTwo = () => {
                     <img src={image} alt="" />
                 </div>
                 <div class="about-col">
-                    <h1 class='sub-titlle'>About me</h1>
+                    <h1 class='sub-titlle'>whoami</h1>
                     <p class='title'>
                         I am a software Developer who is passionate about
                         learning new technologies. I
@@ -39,7 +39,7 @@ const ScreenTwo = () => {
                                 <span>Frontend</span>
                                 <br />
                                 Javascript, CSS, HTML
-                                DART
+                                DART    
                             </li>
                             <li>
                                 <span>Backend</span>

@@ -9,14 +9,16 @@ const ScreenOne = () => {
             <NavBar />
             <div className="header-about">
                 <p id='whoami'>
-                    Software Developer
+                    Hello world!
                 </p>
                 <h1 className="my-name">
-                    Hi, I'm <span className='spane-name'>Seokamela</span>
-                    <br>
-                    </br>
+                    I'm <span className='spane-name'>Seokamela</span>
+                    <br/>
                     David Ntjobokoane
                 </h1>
+                <p>
+                    software developer
+                </p>
             </div>
         </div>
 
