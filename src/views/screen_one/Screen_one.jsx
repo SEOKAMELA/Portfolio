@@ -9,7 +9,7 @@ const ScreenOne = () => {
             <NavBar />
             <div className="header-about">
                 <p id='whoami'>
-                    Hello world!
+                    Hello world! <span className='wave'>👋🏾</span>
                 </p>
                 <h1 className="my-name">
                     I'm <span className='spane-name'>Seokamela</span>
