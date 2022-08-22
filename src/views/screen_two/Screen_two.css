@@ -1,26 +1,32 @@
 #about-me {
     padding: 80px;
-    display: flex;
+    display:inline-flex;
 }
 .pic-col {
 
-    background-color: #3f3c3c;
+    background-color: #050404;
     margin-right: 20px;
-    color: #ababab; 
-
     display: flex;
     justify-content: space-between;
     flex-basis: wrap;
     border-radius: 15px;
-    
+    position: relative;
+}
 
-} 
 
 .about-col {
     flex: 1;
     border-radius: 15px;
     background: rgb(0, 0, 0);
+    position: relative;
+
 }  
+
+
+.pic-col, #img{
+    position: relative;
+
+}
 
 
 
