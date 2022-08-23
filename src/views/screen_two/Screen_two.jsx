@@ -3,6 +3,21 @@ import image from '../../assets/me.png'
 import './Screen_two.css'
 
 const ScreenTwo = () => {
+
+
+    // var tablinks = document.getElementsByClassName("tab-links")
+    // var tancontents = document.getElementsByClassName("tab-contents")
+
+    // function openTab(tabname) {
+
+    //     for (var tablink of tablinks) {
+    //         tablink.classList.remove("active-link")
+    //     }
+    //     for (var tancontent of tancontents) {
+    //         tancontent.classList.remove("active-tab")
+    //     }
+    // }
+
     return (
         <div id="about-me">
             <div class="about-row">
@@ -26,20 +41,20 @@ const ScreenTwo = () => {
                         <p className="tab-links active-link">
                             Skils
                         </p>
-                        <p className="tab-links">
+                        <p className="tab-links" >
                             Experince
                         </p>
-                        <p className="tab-links">
+                        <p className="tab-links" >
                             Education
                         </p>
                     </div>
-                    <div className="tab-contents">
+                    <div className="tab-contents active-tab">
                         <ul>
                             <li>
                                 <span>Frontend</span>
                                 <br />
                                 Javascript, CSS, HTML
-                                DART    
+                                DART
                             </li>
                             <li>
                                 <span>Backend</span>
@@ -49,7 +64,32 @@ const ScreenTwo = () => {
                             <li>
                                 <span>Tools</span>
                                 <br />
-                                React, Maven, Docker, Flutter
+                                React, Maven, Docker, Flutter, Git , Linux
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="tab-contents">
+                        <ul>
+                            <li>
+                                <span>Web Developer</span>
+                                <br />
+                                Intern at Lepsta inc
+                                Backend
+                            </li>
+                        </ul>
+                    </div><div className="tab-contents">
+                        <ul>
+                            <li>
+                                <span>Wethinkcode_</span>
+                                <br />
+                                2020 cohort
+                                Software Developer (NQF level 5)
+                            </li>
+                            <li>
+                                <span>High school</span>
+                                <br />
+                                Mmathabo senior secondary
+                                Matric (Grade 12)
                             </li>
                         </ul>
                     </div>
