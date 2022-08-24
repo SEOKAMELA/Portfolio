@@ -2,61 +2,30 @@ import React from 'react';
 import image from '../../assets/me.png'
 import './Screen_two.css'
 
-
-
-
-
 const ScreenTwo = () => {
 
-    function openTab() {
+    function openTab(tabname) {
 
-    
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tancontents = document.getElementsByClassName("tab-contents")
+        for (var tablink of tablinks) {
+            tablink.classList.remove("active-link")
+        }
+        for (var tabcontant of tancontents) {
+            tabcontant.classList.remove("active-tab")
+        }
 
-        // console.log("HEllo world")
-    
-        // var i = 0
-        // if(i === 3) {
-        //     tablinks.classList.remove("active-link")
-    
-        // }
-    
+        document.addEventListener('click', function handleClick(event) {
+            event.target.classList.add('active-link');
+        });
+
+        document.getElementById(tabname).classList.add("active-tab")
+
     }
-    
-
-
-    // var tablinks = document.getElementsByClassName("tab-links")
-    // var tancontents = document.getElementsByClassName("tab-contents")
-
-    // function openTab(tabname) {
-
-    //     for (var tablinks of tablinks) {
-    //         tablinks.classList.remove("active-link")
-    //     }
-    //     for (var tancontent of tancontents) {
-    //         tancontent.classList.remove("active-tab")
-    //     }
-
-    // }
-
-
-    // function openTab() {
-    //     // const sign_in_btn = document.querySelector("#sign-in-btn");
-    //     // const sign_up_btn = document.querySelector("#sign-up-btn");
-    //     // const container = document.querySelector(".container");
-    //     // sign_up_btn.addEventListener("click", () => {
-    //     //   container.classList.add("sign-up-mode");
-    //     // });
-
-    //     // sign_in_btn.addEventListener("click", () => {
-    //     //   container.classList.remove("sign-up-mode");
-    //     // });
-    //   }
-
- 
 
 
     return (
-        
+
         <div id="about-me">
             <div className="about-row">
                 <div className="pic-col">
@@ -76,13 +45,13 @@ const ScreenTwo = () => {
                         while bringing results to the
                         place of employment </p>
                     <div className="tab-titles">
-                        <p className="tab-links active-link" onClick={ () => alert()}>
+                        <p className="tab-links active-link" onClick={() => openTab("skills")}>
                             Skils
                         </p>
-                        <p className="tab-links " onClick={() => openTab()}>
+                        <p className="tab-links " onClick={() => openTab("experince")}>
                             Experience
                         </p>
-                        <p className="tab-links" onClick={() =>  openTab()}>
+                        <p className="tab-links" onClick={() => openTab("education")}>
                             Education
                         </p>
                     </div>
@@ -106,7 +75,7 @@ const ScreenTwo = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="tab-contents" id='experience'>
+                    <div className="tab-contents" id='experince'>
                         <ul>
                             <li>
                                 <span>Web Developer</span>
@@ -135,8 +104,6 @@ const ScreenTwo = () => {
             </div>
         </div>
     );
-
-    
 }
 
 export default ScreenTwo;
