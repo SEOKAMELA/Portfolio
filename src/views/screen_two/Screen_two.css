@@ -37,18 +37,22 @@
     color: #ffffff;
 }
 
-.tab {
+.tab-titles {
     display: flex;
     justify-content: space-between;
     margin-right: 40%;
+    
+    
 }
 
 .tab-links {
     
-    font-weight: 18px;
+    font-size: 20px;
     font-weight: 400;
     cursor: pointer;
     position: relative;
+    font-weight: 800;
+
 }
 
 
@@ -64,26 +68,27 @@
 }
 
 .tab-links.active-link::after{
-    width: 100%;
+    width: 80%;
 }
 
 
-.tab-contents .ul .li {
+.tab-contents ul li {
     list-style: none;
     margin: 10px 0;
 
 }
 
 .tab-contents ul li span {
-    color:  rgb(18, 159, 214);
+    color: rgb(70, 102, 170);
+    list-style: none;
     font-size: 20px;
 }
 
-/* .tab-contents {
+.tab-contents {
     display: none;
 }
 
 .tab-contents.active-tab{
      display: block;
 }
- */
+
