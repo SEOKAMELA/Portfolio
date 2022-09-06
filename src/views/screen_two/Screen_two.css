@@ -12,8 +12,8 @@
 }
 
 .pic-col {
-    background-color: rgb(10, 10, 10);
     flex-basis: 40%;
+    background-color: rgb(10, 10, 10);
 }
 
 .pic-col, img {
