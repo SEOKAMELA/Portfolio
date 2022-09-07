@@ -22,7 +22,7 @@ const ProjectsView = () => {
                             <p>
                                 This a a smart contract voting system, using flutter in the front end
                             </p>
-                            <a href='#'><i class="fa-solid fa-up-right-from-square"></i></a>
+                            <a href='/#'><i class="fa-solid fa-up-right-from-square"></i></a>
                         </div>
                     </div>
                     <div className="project">
@@ -34,7 +34,7 @@ const ProjectsView = () => {
                             <p>
                                 This a a smart contract voting system, using flutter in the front end
                             </p>
-                            <a href='#'><i class="fa-solid fa-up-right-from-square"></i></a>
+                            <a href='/#'><i class="fa-solid fa-up-right-from-square"></i></a>
                         </div>
                     </div>
                     <div className="project">
@@ -46,7 +46,7 @@ const ProjectsView = () => {
                             <p>
                                 This a a smart contract voting system, using flutter in the front end
                             </p>
-                            <a href='#'><i class="fa-solid fa-up-right-from-square"></i></a>
+                            <a href='/#'><i class="fa-solid fa-up-right-from-square"></i></a>
                         </div>
                     </div>
                 </div>

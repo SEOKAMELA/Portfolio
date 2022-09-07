@@ -19,20 +19,20 @@ const ScreenOne = () => {
                 <p>
                     software developer
                 </p>
-                <a className='icons' href='#'>
+                <a className='icons' href='/#'>
                     <i class="fa-brands fa-linkedin"></i>
 
                 </a>
 
-                <a className='icons' href='#'>
+                <a className='icons' href='/#'>
                     <i class="fa-brands fa-square-facebook"></i>
 
                 </a>
-                <a className='icons' href='#'>
+                <a className='icons' href='/#'>
                     <i class="fa-brands fa-square-whatsapp"></i>
 
                 </a>
-                <a className='icons' href='#'>
+                <a className='icons' href='/#'>
                     <i class="fa-brands fa-square-twitter"></i>
 
                 </a>
