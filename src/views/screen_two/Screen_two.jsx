@@ -30,7 +30,7 @@ const ScreenTwo = () => {
         <div className="about-col">
           <h1 className="sub-titlle">whoami</h1>
           <p className="title">
-            ~ I am a software Developer who is passionate about learning new
+            I am a software Developer who is passionate about learning new
             technologies. I have excellent communication skills and love helping
             others. I am looking for an opportunity where I can apply and grow
             my IT skills while bringing results to the place of employment{" "}

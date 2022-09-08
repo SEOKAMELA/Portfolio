@@ -12,7 +12,7 @@ const ProjectsView = () => {
           <div className="project">
             <img src={logo} alt="Seokamela" id="logo" />
             <div className="layer">
-              <h3>Mobile app</h3>
+              <h4>Mobile app</h4>
               <p>
                 This a a smart contract voting system, using flutter in the
                 front end
@@ -25,7 +25,7 @@ const ProjectsView = () => {
           <div className="project">
             <img src={logo2} alt="Seokamela" id="logo" />
             <div className="layer">
-              <h3>Mobile app</h3>
+              <h4>Mobile app</h4>
               <p>
                 This a a smart contract voting system, using flutter in the
                 front end
@@ -38,7 +38,7 @@ const ProjectsView = () => {
           <div className="project">
             <img src={logo} alt="Seokamela" id="logo" />
             <div className="layer">
-              <h3>Mobile app</h3>
+              <h4>Mobile app</h4>
               <p>
                 This a a smart contract voting system, using flutter in the
                 front end
