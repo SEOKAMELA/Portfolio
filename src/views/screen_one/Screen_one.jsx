@@ -58,6 +58,15 @@ const ScreenOne = () => {
         >
           <i class="fa-brands fa-square-twitter"></i>
         </a>
+
+        <a
+          className="icons"
+          href="https://stackoverflow.com/users/14793909/seokamela"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <i class="fa-brands fa-stack-overflow"></i>
+        </a>
       </div>
     </div>
   );
