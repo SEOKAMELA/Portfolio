@@ -27,7 +27,7 @@ const ProjectsView = () => {
               <h4>SnackTime Web app</h4>
               <p>
                 A mobile food ordering app. which targets the small business
-                around the locations.
+                around the townships.
               </p>
               <a href="/#">
                 <i class="fa-solid fa-up-right-from-square"></i>
