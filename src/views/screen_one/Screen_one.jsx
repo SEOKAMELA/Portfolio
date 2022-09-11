@@ -18,7 +18,7 @@ const ScreenOne = () => {
         <p>software developer</p>
         <a
           className="icons"
-          href="https://www.instagram.com/seokamela/"
+          href="https://www.linkedin.com/in/seokamela-ntjobokoane"
           target="_blank"
           rel="noreferrer"
         >
@@ -27,7 +27,7 @@ const ScreenOne = () => {
 
         <a
           className="icons"
-          href="https://www.linkedin.com/in/seokamela-ntjobokoane"
+          href="https://www.instagram.com/seokamela/"
           target="_blank"
           rel="noreferrer"
         >

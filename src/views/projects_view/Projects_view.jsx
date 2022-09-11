@@ -1,7 +1,7 @@
 import React from "react";
 import "./Projects_view.css";
 import logo from "../../assets/images/splash.jpeg";
-import logo2 from "../../assets/images/snacktime.png";
+import logo2 from "../../assets/images/1.png";
 
 const ProjectsView = () => {
   return (

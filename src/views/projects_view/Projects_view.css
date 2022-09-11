@@ -20,7 +20,7 @@
 .project,
 img {
 
-    width: 100%;
+    width: 150%;
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
@@ -28,7 +28,7 @@ img {
 
 .layer {
 
-    width: 100%;
+    width: 35%;
     height: 0%;
     background: linear-gradient(rgb(0, 0, 0, 0.4), rgb(54, 71, 167));
     border-radius: 10px;
