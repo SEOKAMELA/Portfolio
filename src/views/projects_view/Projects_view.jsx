@@ -13,8 +13,7 @@ const ProjectsView = () => {
             <div className="layer">
               <h4>Ballot</h4>
               <p>
-                A smart contract mobile app which allows users to vote for their
-                desired political parties in the comfort of their home.
+                A smart contract mobile app using Flutter and Dart.
               </p>
               <a href="/#">
                 <i class="fa-solid fa-up-right-from-square"></i>
@@ -26,15 +25,15 @@ const ProjectsView = () => {
             <div className="layer">
               <h4>SnackTime Web app</h4>
               <p>
-                A mobile food ordering app. which targets the small business
-                around the townships.
+                A full stack mobile app. for food delivery, 
+                Using React and PHP
               </p>
               <a href="/#">
                 <i class="fa-solid fa-up-right-from-square"></i>
               </a>
             </div>
           </div>
-          <div className="project">
+          {/* <div className="project">
             <img src={logo} alt="Seokamela" id="logo" />
             <div className="layer">
               <h4>Mobile app</h4>
@@ -45,8 +44,8 @@ const ProjectsView = () => {
               <a href="/#">
                 <i class="fa-solid fa-up-right-from-square"></i>
               </a>
-            </div>
-          </div>
+            </div> */}
+          {/* </div> */}
         </div>
         <a  className="btn-seemore" href="/#"> more </a>
       </div>
