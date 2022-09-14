@@ -48,6 +48,7 @@ const ProjectsView = () => {
             </div>
           </div>
         </div>
+        <a  className="btn-seemore" href="/#"> more </a>
       </div>
   );
 };

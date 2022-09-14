@@ -40,7 +40,7 @@ const ScreenTwo = () => {
               className="tab-links active-link"
               onClick={() => openTab("skills")}
             >
-              Skils
+              Skills
             </p>
             <p className="tab-links " onClick={() => openTab("experince")}>
               Experience
