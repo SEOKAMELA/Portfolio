@@ -17,18 +17,17 @@
     transition:  0.5s ;
 }
 
-.project,
-img {
+.project, .img {
 
-    width: 150%;
+    
+    width: 140%;
     border-radius: 10px;
     display: block;
-    transition: transform 0.5s;
+    transition: 0.5s;
 }
 
 .layer {
-
-    width: 35%;
+    width: 37%;
     height: 0%;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgb(29, 31, 36));
     border-radius: 5px;
@@ -62,7 +61,7 @@ img {
     text-align: center;
 }
 
-.project:hover .img{
+.project:hover, img{
      
     transform: scale(1.1);
 }

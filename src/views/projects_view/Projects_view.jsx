@@ -13,7 +13,7 @@ const ProjectsView = () => {
             <div className="layer">
               <h4>Ballot</h4>
               <p>
-                A smart contract mobile app using Flutter and Dart.
+                A smart contract mobile app using Flutter and Rust.
               </p>
               <a href="/#">
                 <i class="fa-solid fa-up-right-from-square"></i>
@@ -33,7 +33,7 @@ const ProjectsView = () => {
               </a>
             </div>
           </div>
-          {/* <div className="project">
+          <div className="project">
             <img src={logo} alt="Seokamela" id="logo" />
             <div className="layer">
               <h4>Mobile app</h4>
@@ -44,10 +44,11 @@ const ProjectsView = () => {
               <a href="/#">
                 <i class="fa-solid fa-up-right-from-square"></i>
               </a>
-            </div> */}
-          {/* </div> */}
+            </div> 
+          </div>
+          
         </div>
-        <a  className="btn-seemore" href="/#"> more </a>
+        {/* <a  className="btn-seemore" href="/#"> more </a>  */}
       </div>
   );
 };

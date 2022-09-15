@@ -29,7 +29,9 @@ const ScreenTwo = () => {
         </div>
         <div className="about-col">
           <h1 className="sub-titlle">whoami</h1>
+          
           <p className="title">
+            <i class="fa-duotone fa-rectangle-terminal"></i>
             I am a software Developer who is passionate about learning new
             technologies. I have excellent communication skills and love helping
             others. I am looking for an opportunity where I can apply and grow
