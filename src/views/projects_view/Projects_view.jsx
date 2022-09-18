@@ -33,7 +33,7 @@ const ProjectsView = () => {
               </a>
             </div>
           </div>
-          <div className="project">
+          {/* <div className="project">
             <img src={logo} alt="Seokamela" id="logo" />
             <div className="layer">
               <h4>Mobile app</h4>
@@ -45,7 +45,7 @@ const ProjectsView = () => {
                 <i class="fa-solid fa-up-right-from-square"></i>
               </a>
             </div> 
-          </div>
+          </div> */}
           
         </div>
         {/* <a  className="btn-seemore" href="/#"> more </a>  */}
