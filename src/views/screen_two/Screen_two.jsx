@@ -3,7 +3,6 @@ import image from "../../assets/me.png";
 import "./Screen_two.css";
 
 const ScreenTwo = () => {
-
   function openTab(tabname) {
     var tablinks = document.getElementsByClassName("tab-links");
     var tancontents = document.getElementsByClassName("tab-contents");
@@ -23,19 +22,21 @@ const ScreenTwo = () => {
 
   return (
     <div id="about-me">
+      <div className="container">
+
       <div className="about-row">
         <div className="pic-col">
           <img src={image} alt="" />
         </div>
         <div className="about-col">
           <h1 className="sub-titlle">whoami</h1>
-          
+
           <p className="title">
-            <i class="fa-duotone fa-rectangle-terminal"></i>
-            I am a software Developer who is passionate about learning new
-            technologies. I have excellent communication skills and love helping
-            others. I am looking for an opportunity where I can apply and grow
-            my IT skills while bringing results to the place of employment{" "}
+            <i class="fa-duotone fa-rectangle-terminal"></i>I am a software
+            Developer who is passionate about learning new technologies. I have
+            excellent communication skills and love helping others. I am looking
+            for an opportunity where I can apply and grow my IT skills while
+            bringing results to the place of employment{" "}
           </p>
           <div className="tab-titles">
             <p
@@ -96,6 +97,8 @@ const ScreenTwo = () => {
         </div>
       </div>
     </div>
+      </div>
+
   );
 };
 

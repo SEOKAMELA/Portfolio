@@ -1,11 +1,10 @@
 import React from 'react'
-import '../contact/contact.css'
+import './contact.css'
 
 const Contact = () => {
   return (
     <div id="conatact">
       <div className="container">
-        <div className="row">
           <div className="contact-left">
             <h1 className="sub-title">Contact me</h1>
             <p> ntjobokoane@gmail.com</p>
@@ -17,7 +16,7 @@ const Contact = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                I<i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-linkedin"></i>
               </a>
 
               <a
@@ -35,7 +34,7 @@ const Contact = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <i class="fa-brands fa-square-facebook"></i>F
+                <i class="fa-brands fa-square-facebook"></i>
               </a>
               <a
                 className="icons"
@@ -47,7 +46,7 @@ const Contact = () => {
               </a>
             </div>
           </div>
-          <div className="contact-right">
+          <div className="contact-right" >
             <form>
               <input
                 type="text"
@@ -71,7 +70,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </div>
   )
 }
 

@@ -3,8 +3,9 @@ import "./Screen_one.css";
 
 const ScreenOne = () => {
   return (
-    <div>
-      <div className="header-about">
+    <div className="header-about">
+      <div className="container">
+        
         <p id="whoami">
           Hello world! <span className="wave">👋🏾</span>
         </p>
@@ -65,8 +66,6 @@ const ScreenOne = () => {
         >
           <i class="fa-brands fa-stack-overflow"></i>
         </a>
-
-        
       </div>
     </div>
   );
