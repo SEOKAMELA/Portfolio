@@ -2,6 +2,7 @@ import React from "react";
 import "./Projects_view.css";
 import logo from "../../assets/images/splash.jpeg";
 import logo2 from "../../assets/images/1.png";
+import logo3 from "../../assets/images/portfolio.png"
 
 const ProjectsView = () => {
   return (
@@ -34,19 +35,18 @@ const ProjectsView = () => {
               </a>
             </div>
           </div>
-          {/* <div className="project">
-            <img src={logo} alt="Seokamela" id="logo" />
+          <div className="project">
+            <img src={logo3} alt="Seokamela" id="logo" />
             <div className="layer">
-              <h4>Mobile app</h4>
+              <h4>web app </h4>
               <p>
-                This a a smart contract voting system, using flutter in the
-                front end
+                A portfolio project using reactJS HTM and CSS.
               </p>
               <a href="/#">
                 <i class="fa-solid fa-up-right-from-square"></i>
               </a>
             </div> 
-          </div> */}
+          </div>
           
         </div>
         {/* <a  className="btn-seemore" href="/#"> more </a>  */}

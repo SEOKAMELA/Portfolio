@@ -4,11 +4,11 @@ import './contact.css'
 const Contact = () => {
   return (
     <div id="conatact">
-      <div className="container">
+      <div className="conatact-container">
           <div className="contact-left">
             <h1 className="sub-title">Contact me</h1>
-            <p> ntjobokoane@gmail.com</p>
-            <p>+27 78 618 9190</p>
+            <p> <i class="fa-regular fa-envelope"></i> ntjobokoane@gmail.com</p>
+            <p> <i class="fa-solid fa-mobile-screen"></i> +27 78 618 9190</p>
             <div className="socila-icons">
               <a
                 className="icons"
