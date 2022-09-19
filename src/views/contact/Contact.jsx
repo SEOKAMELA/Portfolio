@@ -1,11 +1,78 @@
-import React from 'react';
+import React from 'react'
+import '../contact/contact.css'
 
 const Contact = () => {
-    return (
-        <div>
-            Hewllo
+  return (
+    <div id="conatact">
+      <div className="container">
+        <div className="row">
+          <div className="contact-left">
+            <h1 className="sub-title">Contact me</h1>
+            <p> ntjobokoane@gmail.com</p>
+            <p>+27 78 618 9190</p>
+            <div className="socila-icons">
+              <a
+                className="icons"
+                href="https://www.linkedin.com/in/seokamela-ntjobokoane"
+                target="_blank"
+                rel="noreferrer"
+              >
+                I<i class="fa-brands fa-linkedin"></i>
+              </a>
+
+              <a
+                className="icons"
+                href="https://www.instagram.com/seokamela/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i class="fa-brands fa-square-instagram"></i>
+              </a>
+
+              <a
+                className="icons"
+                href="https://www.facebook.com/seokamela.ntjobokoane"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i class="fa-brands fa-square-facebook"></i>F
+              </a>
+              <a
+                className="icons"
+                href="https://twitter.com/seokamela"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i class="fa-brands fa-square-twitter"></i>
+              </a>
+            </div>
+          </div>
+          <div className="contact-right">
+            <form>
+              <input
+                type="text"
+                name="name"
+                placeholder="Your Name"
+                required
+              ></input>
+              <input
+                typeof="email"
+                name="email"
+                placeholder="Your email"
+                required
+              ></input>
+              <textarea
+                name="message"
+                rows={6}
+                placeholder="Leave a message"
+              ></textarea>
+              <button typeof="submit">Post</button>
+            </form>
+          </div>
         </div>
-    );
+      </div>
+    </div>
+  )
 }
 
-export default Contact;
+export default Contact

@@ -6,6 +6,7 @@ import logo2 from "../../assets/images/1.png";
 const ProjectsView = () => {
   return (
     <div id="projects">
+      <div className="container">
         <h1 className="sub-title">Projects</h1>
         <div className="projects-list">
           <div className="project">
@@ -49,6 +50,7 @@ const ProjectsView = () => {
           
         </div>
         {/* <a  className="btn-seemore" href="/#"> more </a>  */}
+      </div>
       </div>
   );
 };
