@@ -1,5 +1,6 @@
 import React from 'react'
 import './contact.css'
+import cv from '../../assets/documents/Seokamela David Ntjobokoane.pdf'
 
 const Contact = () => {
   return (
@@ -45,7 +46,7 @@ const Contact = () => {
                 <i class="fa-brands fa-square-twitter"></i>
               </a>
             </div>
-            <a className='btn-cv' href='/#'>
+            <a className='btn-cv btn-cv2' href={cv} download >
               Get CV
             </a>
           </div>
