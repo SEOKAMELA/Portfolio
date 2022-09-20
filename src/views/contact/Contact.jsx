@@ -10,7 +10,7 @@ const Contact = () => {
             <p> <i class="fa-regular fa-envelope"></i> ntjobokoane@gmail.com</p>
             <p> <i class="fa-solid fa-mobile-screen"></i> +27 78 618 9190</p>
             <div className="socila-icons">
-              <a
+              <a 
                 className="icons"
                 href="https://www.linkedin.com/in/seokamela-ntjobokoane"
                 target="_blank"
@@ -45,6 +45,9 @@ const Contact = () => {
                 <i class="fa-brands fa-square-twitter"></i>
               </a>
             </div>
+            <a className='btn-cv' href='/#'>
+              Get CV
+            </a>
           </div>
           <div className="contact-right" >
             <form>
