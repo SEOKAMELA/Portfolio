@@ -62,3 +62,51 @@
     display: inline-block;
         
 }
+
+.contact-right form {
+    width: 100%;
+}
+
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #111111;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 19px;
+    border-radius: 6px;
+}
+
+form .btn-post2 {
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.btn-post {
+    display: block;
+    margin: 30px auto;
+    width: fit-content;
+    border: 1px solid #b4b6bb;
+    padding: 10px 40px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #516ac7;
+    transition: 0.5s;
+    background: #111111;
+
+
+}
+
+.btn-post:hover {
+    background: #6380d8;
+
+}
+
+.btn-post.btn-post2{
+    display: inline-block;
+        
+}

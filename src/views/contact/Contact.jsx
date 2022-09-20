@@ -69,7 +69,7 @@ const Contact = () => {
                 rows={6}
                 placeholder="Leave a message"
               ></textarea>
-              <button typeof="submit">Post</button>
+              <button className='btn-post btn-post' typeof="submit">Post</button>
             </form>
           </div>
         </div>
