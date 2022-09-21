@@ -65,3 +65,7 @@
     color: rgb(62, 30, 138);
     transform: translateY(-5px);
 }
+
+.row {
+    padding-left: 50px;
+}
