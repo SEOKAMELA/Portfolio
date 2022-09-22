@@ -26,7 +26,7 @@ const NavBar = () => {
         >
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <a id="a" className="nav-link" href="/#">
+              <a id="a" className="nav-link" href="#about-me">
                 whoami{" "}
               </a>
             </li>
@@ -34,12 +34,12 @@ const NavBar = () => {
                                 <a className="nav-link" href="/#">services</a>
                             </li> */}
             <li className="nav-item">
-              <a className="nav-link" href="/#">
+              <a className="nav-link" href="#projects">
                 projects
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/#">
+              <a className="nav-link" href="#conatact">
                 post
               </a>
             </li>
