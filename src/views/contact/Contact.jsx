@@ -58,7 +58,7 @@ const Contact = () => {
             </a>
           </div>
           <div className="contact-right">
-            <form>
+            <form name="submit-to-google-sheet">
               <input
                 type="text"
                 name="name"

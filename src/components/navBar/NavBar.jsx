@@ -51,35 +51,3 @@ const NavBar = () => {
 };
 
 export default NavBar;
-
-// import React from 'react';
-// import logo from '../../assets/logo3.png'
-
-// const NavBar = () => {
-//     return (
-//         <div className="container">
-//             <nav>
-//                 <img src={logo} alt="" className='logo' />
-//                 <ul>
-//                     <li>
-//                         <a href='/home'>
-//                             home
-//                         </a>
-//                     </li>
-//                     <li>
-//                         <a href='/home'>
-//                             home
-//                         </a>
-//                     </li>
-//                     <li>
-//                         <a href='/home'>
-//                             home
-//                         </a>
-//                     </li>
-//                 </ul>
-//             </nav>
-//         </div>
-//     );
-// }
-
-// export default NavBar;
