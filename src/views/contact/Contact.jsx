@@ -1,8 +1,25 @@
-import React from "react";
+// import React from "react";
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import "./contact.css";
 import cv from "../../assets/documents/Seokamela David Ntjobokoane.pdf";
 
 const Contact = () => {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_portfolio', 'portfolio_website', form.current, 'E4c4zoPCSTdfNVfv8')
+      .then((result) => {
+          console.log(result.text);
+          alert("message sent")
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
+  };
   return (
     <div id="conatact">
       <div className="conatact-container">
@@ -58,11 +75,17 @@ const Contact = () => {
             </a>
           </div>
           <div className="contact-right">
-            <form name="submit-to-google-sheet">
-              <input
+            <form name="submit-to-google-sheet"  ref={form} onSubmit={sendEmail}>
+            <input
                 type="text"
                 name="name"
                 placeholder="Your Name"
+                required
+              ></input>
+              <input
+                type="text"
+                name="subject"
+                placeholder="subject"
                 required
               ></input>
               <input
@@ -76,7 +99,7 @@ const Contact = () => {
                 rows={3}
                 placeholder="Leave a message"
               ></textarea>
-              <button className="btn-post btn-post" typeof="submit">
+              <button className="btn-post btn-post" typeof="submit" value="Send" >
                 Post
               </button>
             </form>
