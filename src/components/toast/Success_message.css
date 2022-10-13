@@ -1,23 +1,91 @@
-/* .toast-succeess {
-    
+.toasts {
+    color: black;
     position: absolute;
     top: 25px;
     right: 30px;
-    background: white;
-    box-shadow: 0 5px 10px rgba(102, 11, 11, 0.1);
     border-radius: 12px;
-    padding: 20px 35px 20px 25px;
+    background: white;
+    padding: 20px 45px 20px 25px;
+    box-shadow: 0 5px 10px rgb(45, 46, 48);
+    border-left: 6px solid blue;
+    overflow: hidden;
+    transform: translateX(calc(100% + 30px));
+    transition: 0.3s;
+
 }
 
-.toast-succeess .toast-container {
-    background-color: red;
+.toasts .active {
+    transform: translateX(calc(0%))
+}
+
+.toasts .toasts-container {
+
     display: flex;
     align-items: center;
 }
 
-.toast-container .message {
-    background-color: blue;
+.toasts-container .check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 35px;
+    background-color: rgb(0, 38, 255);
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+.toasts-container .message {
     display: flex;
     flex-direction: column;
     margin: 0 20px;
-} */
+}
+
+.message .text {
+    font-size: 20px;
+    font-weight: 400;
+    color: darkgray;
+
+}
+
+.message .text.text-1 {
+    font-weight: 600;
+    color: grey;
+
+}
+
+.toasts .close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    padding: 5px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+
+.toasts .close:hover {
+    opacity: 1;
+
+}
+
+.toasts .porgress {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 5px;
+    width: 100%;
+    background: green;
+}
+
+.toasts .porgress::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: cornflowerblue; 
+}

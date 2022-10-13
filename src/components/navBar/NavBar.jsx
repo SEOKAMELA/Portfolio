@@ -1,13 +1,21 @@
 import React from "react";
-import logo from "../../assets/logo3.png";
+// import logo from "../../assets/logo3.png";
 import "./NavBar.css";
 
 const NavBar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-ligh">
       <div className="container-fluid">
-        <img src={logo} alt="Seokamela" id="logo" />
+        {/* <img src={logo} alt="Seokamela" id="logo" /> */}
 
+        <div className="logo-name">
+          {/* <i className="fa-solid fa-code  fa-3x"></i> */}
+          {/* <h1 className="nav-seokamela"> Seokamela </h1> */}
+          
+          <i class="fa-solid fa-chevron-right fa-3x"></i>
+          <h1 className="nav-seokamela"> Seokamela </h1>
+
+        </div>
         <button
           className="navbar-toggler"
           type="button"

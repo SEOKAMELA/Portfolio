@@ -27,11 +27,9 @@ const Contact = () => {
           <div className="contact-left">
             <h1 className="sub-title">Contact me</h1>
             <p>
-              {" "}
               <i class="fa-regular fa-envelope"></i> ntjobokoane@gmail.com
             </p>
             <p>
-              {" "}
               <i class="fa-solid fa-mobile-screen"></i> +27 78 618 9190
             </p>
             <div className="socila-icons">
@@ -102,7 +100,9 @@ const Contact = () => {
               <button className="btn-post btn-post" typeof="submit" value="Send" >
                 Post
               </button>
+
             </form>
+            
           </div>
         </div>
       </div>

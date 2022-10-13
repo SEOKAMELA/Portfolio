@@ -44,7 +44,7 @@
 .btn-cv {
     display: block;
     margin: 30px auto;
-    width: fit-content;
+    /* width: fit-content; */
     border: 1px solid #b4b6bb;
     padding: 10px 40px;
     border-radius: 3px;
