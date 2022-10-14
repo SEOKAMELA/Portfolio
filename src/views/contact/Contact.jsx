@@ -1,24 +1,39 @@
 // import React from "react";
-import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import "./contact.css";
 import cv from "../../assets/documents/Seokamela David Ntjobokoane.pdf";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
+
+  const Success = () => toast.success('Message sent!', {
+    position: toast.POSITION.TOP_RIGHT
+  });
 
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_portfolio', 'portfolio_website', form.current, 'E4c4zoPCSTdfNVfv8')
-      .then((result) => {
+    emailjs
+      .sendForm(
+        "service_portfolio",
+        "portfolio_website",
+        form.current,
+        "E4c4zoPCSTdfNVfv8"
+      )
+      .then(
+        (result) => {
           console.log(result.text);
-          alert("message sent")
-      }, (error) => {
+          Success()
+        },
+        (error) => {
           console.log(error.text);
-      });
-      e.target.reset()
+        }
+      );
+    e.target.reset();
   };
   return (
     <div id="conatact">
@@ -73,8 +88,8 @@ const Contact = () => {
             </a>
           </div>
           <div className="contact-right">
-            <form name="submit-to-google-sheet"  ref={form} onSubmit={sendEmail}>
-            <input
+            <form name="submit-to-google-sheet" ref={form} onSubmit={sendEmail}>
+              <input
                 type="text"
                 name="name"
                 placeholder="Your Name"
@@ -97,12 +112,19 @@ const Contact = () => {
                 rows={3}
                 placeholder="Leave a message"
               ></textarea>
-              <button className="btn-post btn-post" typeof="submit" value="Send" >
+              <button
+                className="btn-post btn-post"
+                typeof="submit"
+                value="Send"
+              >
                 Post
               </button>
+              {/* <button onClick={Success} className="btn-post btn-post" typeof="submit" value="Send" >
+                toast
+              </button> */}
+              <ToastContainer />
 
             </form>
-            
           </div>
         </div>
       </div>
