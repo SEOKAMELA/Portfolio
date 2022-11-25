@@ -12,7 +12,7 @@
 
 .pic-col {
     flex-basis: 35%;
-    background-color: rgb(10, 10, 10);
+    background-color: rgb(32, 32, 32);
 }
 
 .pic-col, img {
@@ -26,7 +26,7 @@
 .about-col {
     flex-basis: 60%;
     border-radius: 15px;
-    background-color: rgb(10, 10, 10);
+    background-color: rgb(32, 32, 32);
 
 } 
 
