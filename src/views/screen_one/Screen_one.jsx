@@ -6,7 +6,7 @@ const ScreenOne = () => {
     <div className="header-about">
       <div className="container">
         <p id="whoami">
-          Hello world! <span className="wave">👋🏾</span>
+          Hello world!!! <span className="wave">👋🏾</span>
         </p>
         <h1 className="my-name">
           I'm <span className="spane-name">Seokamela</span>
