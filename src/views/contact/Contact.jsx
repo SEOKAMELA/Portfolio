@@ -2,7 +2,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./contact.css";
-import cv from "../../assets/documents/Seokamela David Ntjobokoane.pdf";
+import cv from "../../assets/documents/Seokamela_David_CV_2025.pdf";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
